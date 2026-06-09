@@ -1,0 +1,16 @@
+venv/
+__pycache__/
+
+*.mp4
+*.mov
+*.avi
+
+*.pt
+*.pth
+
+output_video.mp4
+Annotated_Video.mp4
+Traffic_Video.mp4
+tr.mp4
+tr2.mov
+violations/
