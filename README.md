@@ -1,154 +1,142 @@
-\# 🚦 Red Light Violation Detection System
+# 🚦 Red Light Violation Detection System
 
+## 📖 Introduction
 
+Traffic signal violations are one of the major causes of road accidents and congestion. This project presents an AI-powered Red Light Violation Detection System that automatically identifies vehicles crossing a stop line during a red traffic signal.
 
-\## Overview
+Using YOLOv8 and OpenCV, the system analyzes traffic footage, detects vehicles in real time, tracks their movement, and records violations with supporting evidence.
 
+---
 
+## 🎯 Problem Statement
 
-The Red Light Violation Detection System is a computer vision-based traffic monitoring application that automatically detects vehicles crossing the stop line during a red traffic signal. The system uses YOLO object detection and OpenCV to identify vehicles, monitor traffic conditions, and record violations.
+Manual traffic monitoring is time-consuming, error-prone, and difficult to scale.
 
+The objective of this project is to automate the detection of red-light violations by:
 
+* Detecting vehicles from traffic footage
+* Monitoring signal status
+* Identifying vehicles crossing the stop line during a red signal
+* Generating violation records automatically
 
-This project demonstrates the application of Artificial Intelligence and Computer Vision in intelligent transportation systems and traffic law enforcement.
+---
 
+## ✨ Key Features
 
+✅ Real-Time Vehicle Detection
 
-\---
+✅ Red Light Violation Identification
 
+✅ Automated Violation Logging
 
+✅ Vehicle Evidence Capture
 
-\## Features
+✅ Annotated Video Generation
 
+✅ Computer Vision-Based Monitoring
 
+✅ Customizable Traffic Rules
 
-\* Real-time vehicle detection using YOLOv8
+---
 
-\* Red light violation detection
+## 🛠️ Tech Stack
 
-\* Automatic violation logging
+| Technology       | Purpose                          |
+| ---------------- | -------------------------------- |
+| Python           | Core Development                 |
+| OpenCV           | Image & Video Processing         |
+| YOLOv8           | Vehicle Detection                |
+| NumPy            | Numerical Operations             |
+| Jupyter Notebook | Model Training & Experimentation |
 
-\* Vehicle image capture for evidence
+---
 
-\* Traffic signal status monitoring
-
-\* Violation record generation
-
-\* Annotated output video with detection results
-
-
-
-\---
-
-
-
-\## Technologies Used
-
-
-
-\* Python
-
-\* OpenCV
-
-\* YOLOv8
-
-\* NumPy
-
-\* Computer Vision
-
-\* Machine Learning
-
-
-
-\---
-
-
-
-\## Project Structure
-
-
+## ⚙️ System Workflow
 
 ```text
-
-Red-Light-Violation-Detection-System/
-
-│
-
-├── main.py
-
-├── Vehicle\_Detection\_Training.ipynb
-
-├── violations.csv
-
-├── README.md
-
+Traffic Video
+      │
+      ▼
+Vehicle Detection (YOLOv8)
+      │
+      ▼
+Traffic Signal Monitoring
+      │
+      ▼
+Violation Detection Logic
+      │
+      ▼
+Evidence Capture & Logging
+      │
+      ▼
+Annotated Output Video
 ```
 
+---
 
+## 📂 Project Structure
 
-\---
+```text
+Red-Light-Violation-Detection-System
+│
+├── main.py
+├── Vehicle_Detection_Training.ipynb
+├── violations.csv
+├── README.md
+```
 
+---
 
+## 🚀 How It Works
 
-\## How It Works
+1. Input traffic footage is processed frame-by-frame.
+2. YOLOv8 detects vehicles present in each frame.
+3. The system continuously checks traffic signal status.
+4. Vehicles crossing the stop line during a red signal are flagged.
+5. Violation details are recorded automatically.
+6. Evidence and statistics are generated for further analysis.
 
+---
 
+## 📊 Output
 
-1\. Traffic footage is processed frame by frame.
+* Vehicle Detection Results
+* Violation Logs
+* Evidence Images
+* Annotated Video Output
+* Traffic Monitoring Statistics
 
-2\. YOLO detects vehicles in the scene.
+---
 
-3\. The system monitors the traffic signal status.
+## 🌍 Real-World Applications
 
-4\. Vehicles crossing the stop line during a red signal are marked as violations.
+* Smart Cities
+* Intelligent Traffic Management
+* Automated Law Enforcement
+* Road Safety Systems
+* Urban Transportation Analytics
 
-5\. Violation details are logged and stored for analysis.
+---
 
+## 🔮 Future Enhancements
 
+* Automatic Number Plate Recognition (ANPR)
+* Real-Time CCTV Integration
+* Web Dashboard for Monitoring
+* Cloud-Based Storage
+* Multi-Camera Traffic Analysis
+* Advanced Vehicle Tracking
 
-\---
+---
 
+## 👨‍💻 Author
 
+### T. Shirisha
 
-\## Applications
+B.E. Artificial Intelligence & Data Science
 
+Chaitanya Bharathi Institute of Technology (CBIT)
 
+---
 
-\* Smart Traffic Management
-
-\* Automated Traffic Monitoring
-
-\* Road Safety Enforcement
-
-\* Intelligent Transportation Systems
-
-\* Smart City Solutions
-
-
-
-\---
-
-
-
-\## Future Enhancements
-
-
-
-\* Automatic Number Plate Recognition (ANPR)
-
-\* Real-time CCTV integration
-
-\* Web-based monitoring dashboard
-
-\* Cloud-based data storage
-
-\* Traffic analytics and reporting
-
-
-
-\---
-
-
-
-
-
+⭐ If you found this project interesting, feel free to star the repository.
