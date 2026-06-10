@@ -137,6 +137,4 @@ B.E. Artificial Intelligence & Data Science
 
 Chaitanya Bharathi Institute of Technology (CBIT)
 
----
 
-⭐ If you found this project interesting, feel free to star the repository.
